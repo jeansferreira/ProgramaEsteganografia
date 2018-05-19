@@ -1,0 +1,17 @@
+Para usar esteganografia em uma imagem use:
+java -jar Esteganografia.jar -e NomeDaImagem.png NomeDoArquivo1 NomeDoArquivo2 .
+..
+O numero de arquivos e limitado apenas pela capacidade de armazenamento da image
+m.
+A imagem output.png contem o resultado do processo.
+
+Para reverter um texto escondido numa imagem faşa:
+java -jar Esteganografia.jar -r NomeDaImagem.png
+
+Para o programa funcionar, certifique-se que todos os arquivos existem.
+
+ERRO: Arquivo nÒo encontrado ou invßlido: output.png
+
+C:\Users\jean\Downloads>java -jar Esteganografia.jar -r output.png
+Como usar o Esteganografia.jar
+----------------------------
